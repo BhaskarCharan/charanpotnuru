@@ -60,6 +60,8 @@
 body {
 	font-size: 14px;
 	font-family: "Work Sans", sans-serif;
+	background-color: black;
+	color: white;
 }
 a {
 	color: #00b8d4;
@@ -137,6 +139,6 @@ li {
 	color: #888;
 }
 .dark-mode {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
   }
