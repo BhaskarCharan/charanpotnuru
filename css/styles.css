@@ -143,3 +143,7 @@ li {
 #footer a {
 	color: #888;
 }
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
