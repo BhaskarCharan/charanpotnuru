@@ -18,9 +18,13 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 
+    
+ <hr>
 <div class="container-fluid" id="top">
     <!-- Awesome content begins here! -->
-    
+    <div align="right" >
+        <a onclick="myFunction()" class="btn btn-info" role="button">Theme</a>
+    </div>
     <!-- Super sweet intro heading -->
     <div class="pagehead">
     <h1 class="fade-in one intro">Hi, I'm Charan Potnuru.</h1>
@@ -175,3 +179,9 @@ from Vignan's Institute of information technology</p>
         $(window).stop(true).scrollTo(this.hash, {duration:500, interrupt:false});
       });
       </script>
+<script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
